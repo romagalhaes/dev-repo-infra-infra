@@ -5,7 +5,7 @@ metadata:
   description: "Recursos de infraestrutura para a aplicação dev-repo-infra"
   links:
     - title: Repositório de Código
-      url: "https://github.com/romagalhaes/dev-repo-infra"
+      url: "https://github.com/romagalhaes/dev-repo-infra-infra"
 spec:
   type: terraform
   owner: "group:default/guests"
