@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: "dev-repo-infra-infra"
   description: "Recursos de infraestrutura para a aplicação dev-repo-infra"
@@ -8,7 +8,9 @@ metadata:
       url: "https://github.com/romagalhaes/dev-repo-infra"
   annotations:
     github.com/project-slug: romagalhaes/dev-repo-infra-infra
+    backstage.io/source-location: url:https://github.com/romagalhaes/dev-repo-infra-infra
+    idp.mycompany.com/repository-role: infrastructure
 spec:
-  type: infrastructure
+  type: terraform
   owner: "group:default/guests"
   lifecycle: production
