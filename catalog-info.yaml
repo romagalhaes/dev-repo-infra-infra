@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: "dev-repo-infra-infra"
+  description: "Recursos de infraestrutura para a aplicação dev-repo-infra"
+  links:
+    - title: Repositório de Código
+      url: "https://github.com/romagalhaes/dev-repo-infra"
+spec:
+  type: terraform
+  owner: "group:default/guests"
+  lifecycle: production
