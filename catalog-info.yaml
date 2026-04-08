@@ -7,7 +7,8 @@ metadata:
     - title: Repositório de Código
       url: "https://github.com/romagalhaes/dev-repo-infra"
   annotations:
-    backstage.io/source-location: url:https://github.com/romagalhaes/dev-repo-infra-infra
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: "url:https://github.com/romagalhaes/dev-repo-infra-infra/tree/main/"
     github.com/project-slug: romagalhaes/dev-repo-infra-infra
     idp.mycompany.com/repository-role: infrastructure
 spec:
